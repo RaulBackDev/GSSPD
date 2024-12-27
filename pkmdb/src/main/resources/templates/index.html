@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,12 +53,12 @@
     </main>
 
     <!--JQuery-->
-    <script src="/dependencies/jquery.js"></script>
+    <script th:src="@{/dependencies/jquery.js}"></script>
 
     <!--Guardar dados dos Pokemon na memória-->
-    <script src="/js/loadDefaultPkm.js"></script>
+    <script th:src="@{/js/loadDefaultPkm.js}"></script>
 
     <!--JS-->
-    <script src="/js/script.js"></script>
+    <script th:src="@{/js/script.js}"></script>
 </body>
 </html>
