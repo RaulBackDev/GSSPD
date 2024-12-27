@@ -4,16 +4,16 @@
 _Em desenvolvimento._
 
 ## _Stack_
-__Lang:__
+_**Lang:**_
 _Java, Javascript_
 \
-__Lang WEB:__
+_**Lang WEB:**_
 _HTML, CSS_
 \
-__Framework:__ 
+_**Framework:**_ 
 _Spring_
 \
-__Lib:__ 
+_**Lib:**_ 
 _Jquery_
 
 ## _Dev_ 
@@ -24,8 +24,5 @@ _Um projeto divertido que vai guardar informações sobre os Pokémon, como nome
 
 ## _Requisitos_
 ### _Use cases:_
-
-* _Cadastro de pokemon no banco de dados_
-* _Atualização dos dados do pokemon_ 
-* _Buscar por pokemon, via ID ou nome_
+* _Buscar por pokemon, via nome_
 * _Exibição de lista com todos os pokemon e seus respectivos dados_
