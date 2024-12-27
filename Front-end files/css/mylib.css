@@ -1,0 +1,256 @@
+/*Container*/
+.container {
+    display: flex;
+}
+
+.container_block {
+    display: block;
+}
+
+/*Largura*/
+.width_fit {
+    width: fit-content;
+}
+.width_1 {
+    width: 60%;
+}
+.width_2 {
+    width: 70%;
+}
+.width_3 {
+    width: 80%;
+}
+.width_4 {
+    width: 90%;
+}
+.width_max {
+    width: 100%;
+}
+
+/*argura máxima*/
+.max_width_1 {
+    max-width: 200px;
+}
+
+.max_width_2 {
+    max-width: 300px;
+}
+
+.max_width_3 {
+    max-width: 400px;
+}
+
+/*Altura*/
+.height_fit {
+    height: fit-content;
+}
+.height_4 {
+    width: 90%;
+}
+.height_max {
+    height: 100%;
+}
+
+/*Font & Txt*/
+.txt_gg, .txt_g, .txt_m, .txt_p, .txt_pp {
+    font-family: "Comic Neue", serif;
+    font-style: italic;
+}
+
+.txt_gg {
+    font-size: 42px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.txt_g {
+    font-size: 38px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.txt_m {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.txt_p {
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.txt_pp {
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.nobreak {
+    white-space: nowrap;
+}
+
+/*Direção*/
+.flexcol {
+    flex-direction: column;
+}
+
+/*Alinhamento*/
+.align {
+    justify-content: center;
+    align-items: center;
+}
+.alignx {
+    justify-content: center;
+}
+.aligny {
+    align-items: center;
+}
+
+/*Margem*/
+    /*Cima*/  
+    .margin_top_1 {
+        margin-top: 16px;
+    }
+    .margin_top_2 {
+        margin-top: 24px;
+    }
+    .margin_top_3 {
+        margin-top: 32px;
+    }
+    .margin_top_4 {
+        margin-top: 48px;
+    }
+
+    /*Baixo*/
+    .margin_bottom_1 {
+        margin-bottom: 16px;
+    }
+    .margin_bottom_2 {
+        margin-bottom: 24px;
+    }
+    .margin_bottom_3 {
+        margin-bottom: 32px;
+    }
+    .margin_bottom_4 {
+        margin-bottom: 48px;
+    }
+
+    /*Y*/
+    .marginy_1 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .marginy_2 {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .marginy_3 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .marginy_4 {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    /*Sem margin*/
+    .nomargin {
+        margin: 0;
+    }
+    .nomarginx {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nomarginy {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+/*Alinhamento de texto*/
+.txt_center {
+    text-align: center;
+}
+
+/*Cor de fundo*/
+.bg_white {
+    background-color: white;
+}
+
+/*Cor do texto*/
+.txt_red {
+    color: red;
+}
+
+/*Borda*/
+.border_black {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.radius_g {
+    border-radius: 16px;
+}
+
+/*padding*/
+.padding_1 {
+    padding: 16px;
+}
+
+/*X*/
+.paddingx_1 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.close, .btn {
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/*Botão*/
+.btn {
+    transition: background-color 0.22s ;
+}
+
+.btn_blue {
+    background-color: rgb(0, 174, 255);
+}
+.btn_blue:hover {
+    background-color: rgb(10, 202, 255);
+}
+
+.btn_red {
+    background-color: rgb(254, 91, 91);
+}
+.btn_red:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.btn_green {
+    background-color: rgb(52, 175, 52);
+}
+.btn_green:hover {
+    background-color: rgb(0, 194, 0);
+}
+
+.close {
+    background-color: white;
+    transition: color 0.22s ;
+}
+.close_btn {
+    color: rgb(254, 91, 91);
+}
+.close_btn:hover {
+    color: rgb(255, 0, 0);
+}

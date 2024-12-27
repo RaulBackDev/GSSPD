@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSSPD</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Lib-->
+    <link rel="stylesheet" href="/css/mylib.css">
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <header id="header_div" class="container width_max alignx margin_bottom_4">
+        <div class="container width_4 align txt_center">
+            <!--Snorlax Icon-->
+            <img class="logo_img" src="/images/pokemon_icons/Snorlax_icon.png" alt="Snorlax Icon">
+
+            <!--Título-->
+            <h1 class="txt_gg bold">Generic Super Simple Pokemon Database (GSSPD)</h1>
+
+            <!--Pikachu Icon-->
+            <img class="logo_img" src="/images/pokemon_icons/Pikachu_icon.png" alt="Pikachu Icon">
+        </div>
+    </header>
+        
+    <!--Corpo-->
+    <main id="main_div" class="margin_bottom_4">
+
+        <!--Div pesquisa por Pokemon-->
+        <section class="container width_max alignx margin_bottom_4">
+            <div class="container width_4 flexcol align">
+                <!--Campo pesquisa por Pokemon-->
+                <label class="txt_m bold" for="field_search">Pequise por um Pokemon <span class="nobreak">(Nome)</span></label>
+                <input class="txt_m normal" type="text" name="campo_pesquisa" id="field_search" 
+                    placeholder="Ex: Charmander" title="Informe o nome do Pokemon que deseja encontrar">
+            </div>     
+        </section>
+
+        <!--Exibição dos Pokemon cadastrados-->
+        <section class="container width_max alignx">
+            <!--Grid-->
+            <div id="pkm_grid" class="pkm_grid_container"></div>
+        </section>
+    </main>
+
+    <!--JQuery-->
+    <script src="/dependencies/jquery.js"></script>
+
+    <!--Guardar dados dos Pokemon na memória-->
+    <script src="/js/loadDefaultPkm.js"></script>
+
+    <!--JS-->
+    <script src="/js/script.js"></script>
+</body>
+</html>
