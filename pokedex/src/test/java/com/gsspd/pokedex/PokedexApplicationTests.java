@@ -1,10 +1,10 @@
-package com.gsspd.pkmdb;
+package com.gsspd.pokedex;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PkmdbApplicationTests {
+class PokedexApplicationTests {
 
 	@Test
 	void contextLoads() {

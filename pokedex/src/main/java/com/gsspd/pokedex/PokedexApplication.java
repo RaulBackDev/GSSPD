@@ -1,13 +1,13 @@
-package com.gsspd.pkmdb;
+package com.gsspd.pokedex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PkmdbApplication {
+public class PokedexApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PkmdbApplication.class, args);
+		SpringApplication.run(PokedexApplication.class, args);
 	}
 
 }
