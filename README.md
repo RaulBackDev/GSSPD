@@ -1,7 +1,7 @@
 # Generic Super Simple Pokemon Database (GSSPD)
 
 ## _Status_ 
-_Em desenvolvimento._
+_Concluído._
 
 ## _Stack_
 _**Lang:**_
